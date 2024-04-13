@@ -1,38 +1,41 @@
-import os
+from PyQt5 import uic, QtWidgets
+from cadastro_veiculo_view import CadastroVeiculoView
+from vinculo_motorista_veiculo_view import VincularMotorista
+<<<<<<< HEAD
+from engate_view import EngateDesengateVeiculo
+
+=======
+from engate_desengate_view import EngateDesengateVeiculo
+>>>>>>> a1c7f847f596861dbdff6cc5c5c8c5b943b76ba6
+class MenuInicial(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi('telaMenu.ui', self)
+        self.show()
+        self.botaoEntrarCadastroVeic.clicked.connect(self.ChamarCadastroVeiculo)
+        self.botaoCtVinculo.clicked.connect(self.ChamarCtVinculoMotorista)
+        self.botaoEngateDesengate.clicked.connect(self.ChamarEngateDesengate)
+        self.cadastro_veiculo_view = None
+        self.vinculo_motorista_veiculo_view = None
+        self.engate_desengate_view = None
+
+    def ChamarCadastroVeiculo(self):
+        if not self.cadastro_veiculo_view:
+            self.cadastro_veiculo_view = CadastroVeiculoView()
+        self.cadastro_veiculo_view.show()
+    def ChamarCtVinculoMotorista(self):
+        if not self.vinculo_motorista_veiculo_view:
+            self.vinculo_motorista_veiculo_view = VincularMotorista()
+        self.vinculo_motorista_veiculo_view.show()
+
+    def ChamarEngateDesengate(self):
+        if not self.engate_desengate_view:
+            self.engate_desengate_view = EngateDesengateVeiculo()
+        self.engate_desengate_view.show()
 
 
-class MenuView:
-    @staticmethod
-    def clear():
-        os.system('cls')
-        print("\n\n")
 
-    @staticmethod
-    def option():
-        valid = False
-        while (not valid):
-            try:
-                option = int(input("\nDigite sua opção: "))
-                valid = True
-            except KeyboardInterrupt:
-                option = 0
-                valid = True
-            except ValueError:
-                option = None
-                valid = True
-            except Exception:
-                valid = False
-
-        return option
-
-    @staticmethod
-    def menu() -> int:
-        MenuView.clear()
-        print("MENU PRINCIPAL \n")
-        print("1 - Cadastrar Veículo")
-        print("2 - Consulta Veículo")
-        print("3 - Vínculo e desvinculo de Motorista")
-        print("4 - Engate e desengate de veículos")
-        print("0 - Sair")
-
-        return MenuView.option()
+if __name__ == "__main__": #Inicando a tela
+    app = QtWidgets.QApplication([])
+    window = MenuInicial()
+    app.exec()

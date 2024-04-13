@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="ADA4A6C9-B188-1BCE-6928-793A5C2F85BF" name="ENDEREC0" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0DB6E667-9851-BCFA-BEBB-1F91EF1D7856" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6E576AEB-D73E-F265-DDBE-736781C2AA46" name="FUNCIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0DB6E667-9851-BCFA-BEBB-1F91EF1D7856" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="06B5AF34-6E5A-DC24-25DF-443BB0EB2B0D" name="MUNICIPIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0DB6E667-9851-BCFA-BEBB-1F91EF1D7856" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="77B04185-038B-8686-3B91-D3F6C2FE26C9" name="PESSOA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0DB6E667-9851-BCFA-BEBB-1F91EF1D7856" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="656BF603-6878-99F3-7BC3-8B5888A38062" name="UF" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0DB6E667-9851-BCFA-BEBB-1F91EF1D7856" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

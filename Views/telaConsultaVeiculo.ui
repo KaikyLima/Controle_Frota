@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tabelaConsulta">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>771</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Número da Placa</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Modelo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tração</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Renavam</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Data de aquisição</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Número da Frota</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Número do conjunto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Número do chassi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Combustivel</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ano de fabricação</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Marca</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Quantidade de eixos</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tipo de veículo</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D36914B3-B17D-1EA3-964D-1E88A64D98F7" name="FORNECEDOR">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:33:14 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod" id="D2E94A0F-3C84-6245-9262-54812C3E992B">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:33:43 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="E93E40DB-5C72-AFB4-03EA-4A0FE8B0A278">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:36:08 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmFornecedor" id="1D9A8F06-DB2E-D1E1-BDAA-DBD583901C2A">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:37:03 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23D41255-9692-C687-782D-ADFCE6562987" name="FORNECEDOR_PK">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:33:43 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E94A0F-3C84-6245-9262-54812C3E992B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E7BE48-7B22-B647-26C6-7E4A0566920A" name="FORNECEDOR__UN">
+<createdBy>kaiky_dneyfo2</createdBy>
+<createdTime>2024-04-12 01:46:42 UTC</createdTime>
+<ownerDesignName>bdCtFrota</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E93E40DB-5C72-AFB4-03EA-4A0FE8B0A278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
